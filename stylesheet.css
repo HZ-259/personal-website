@@ -1,0 +1,32 @@
+/*CSS Stylesheet*/
+
+/** {border: 1px solid black;}*/
+
+img { max-width: 100%; }
+
+body {
+    margin: 0; 
+    font-size: 18px;
+    line-height: 22px;
+    font-family: sans-serif;
+
+}
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.code {
+    padding: 16px;
+    border: 1px solid #333;
+    background-color: #999;
+    font-family: 'Courier', monospace;
+}
+
+@media (max-width: 959px) {
+    * {box-sizing: border-box;}
+    #wrapper{
+        max-width: 100%;
+    }
+}
