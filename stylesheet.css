@@ -26,10 +26,7 @@ body {
     font-family: 'Courier', monospace;
 }
 
-.tabs {
-    font-size: 30px;
-    background-color:rgb(181, 245, 242);
-    border: 1px solid black;
+.navbar {
     position: fixed;
     top: 0;
     right: 0;
